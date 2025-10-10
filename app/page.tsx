@@ -7,7 +7,6 @@ import Quality from "@/sections/quality";
 import Services from "@/sections/services";
 import Stats from "@/sections/stats";
 import Tape1 from "@/sections/tape-1";
-import Tape2 from "@/sections/tape-2";
 
 export default function Home() {
   return (
