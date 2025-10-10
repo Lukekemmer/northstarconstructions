@@ -63,7 +63,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="mt-20 lg:mt-30 flex gap-6 flex-no-wrap overflow-x-auto">
+        <div className="mt-20 lg:mt-30 flex gap-6 flex-no-wrap overflow-x-auto hide-scrollbar">
           {projectImages.map(({ id, alt, src }) => (
             <Fragment key={id}>
               <Image
