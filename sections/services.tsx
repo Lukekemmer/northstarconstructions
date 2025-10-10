@@ -9,7 +9,7 @@ const serviceList = [
     imageIcon: "/pj_icon.png",
     heading: "Project Management",
     description:
-      "From initial planning to implementation, we ensure that every detail is well controlled, the budget is managed wisely, and the project runs on schedule",
+      "Our team oversees every stage of construction with precision — from planning and permitting to execution and delivery. We keep your project on schedule, on budget, and up to the highest quality standards.",
     linkTo: "#",
   },
   {
@@ -17,7 +17,7 @@ const serviceList = [
     imageIcon: "/gc_icon.png",
     heading: "General Construction",
     description:
-      "We provide comprehensive solutions, from planning to implementation, to ensure that every project runs smoothly, on budget and on time",
+      "We build with skill and integrity. Whether it’s a new development, renovation, or structural expansion, our construction services are designed to create lasting value.",
     linkTo: "#",
   },
   {
@@ -25,15 +25,15 @@ const serviceList = [
     imageIcon: "/dp_icon.png",
     heading: "Design and Planning",
     description:
-      "Our planning team ensures that every detail of the project is well controlled, including monitoring the budget and schedule.  With a combination of brilliant design and careful planning",
+      "Our design and planning team partners with clients to shape their vision into practical, buildable projects. We integrate architectural creativity with engineering expertise to ensure smooth execution.",
     linkTo: "#",
   },
   {
     id: 4,
     imageIcon: "/sc_icon.png",
-    heading: "Special Construction",
+    heading: "Specialized Construction",
     description:
-      "Our team of experts is skilled at tackling projects that require special handling, such as buildings with unconventional designs, complex layout projects, or projects that require innovative technology and materials",
+      "From structural retrofitting to advanced material solutions, we tackle complex construction challenges that require specialized knowledge and innovative problem-solving.",
     linkTo: "#",
   },
 ];

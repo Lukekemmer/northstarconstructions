@@ -5,7 +5,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="pt-16 lg:pt-20 pb-12 lg:pb-16 px-5">
+    <section className="pt-16 lg:pt-20 pb-12 lg:pb-16 px-5" id="about-us">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 gap-12">
           <div className="flex h-full">
@@ -20,16 +20,25 @@ const About = () => {
           <div className="py-4">
             <span className="eyebrow">about us</span>
             <h2 className="mt-4 font-space-grotesk">
-              Our company is ready to solve solutions into change
+              Let&apos;s build something strong together
             </h2>
-            <p className="mt-6 text-sm">
-              At Huantume, our primary goal is to turn challenges into solutions and drive
-              positive change, by meeting the evolving needs of our clients and the
-              industries we serve.
+            <p className="my-3 text-sm font-bold text-black">
+              18+ Years of working experience with global industries
             </p>
-            <Button variant="outline" className="mt-8">
-              READ MORE
-              <ArrowRight className="text-orange-600" />
+            <p className="mt-4 text-sm">
+              At <span className="font-bold">North Star Constructions</span>, we are a
+              team of experienced builders, engineers, and project managers dedicated to
+              delivering reliable, high-quality construction.
+            </p>
+
+            <p className="mt-3 text-sm">
+              From commercial developments to specialized infrastructure, we bring over
+              two decades of hands-on expertise to every project. Our work is grounded in
+              safety, precision, and a commitment to excellence.
+            </p>
+            <Button variant="outline" className="mt-8 group">
+              CONTACT US
+              <ArrowRight className="text-orange-600 group-hover:text-white" />
             </Button>
           </div>
         </div>

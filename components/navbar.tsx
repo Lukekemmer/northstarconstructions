@@ -9,8 +9,8 @@ const Navbar = () => {
       <div className="hidden md:flex container mx-auto py-3 px-5">
         <div className="flex justify-between items-center">
           <div className="flex gap-4 text-white text-xs">
-            <div>(907) 756-1020</div>
-            <div>8502 Preston Rd. Inglewood, Maine 98380</div>
+            <div>+1 (972) 460-2957</div>
+            <div>150 Moss Dr, Debary, FL 32713 USA</div>
           </div>
         </div>
       </div>

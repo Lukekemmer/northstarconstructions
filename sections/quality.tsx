@@ -10,31 +10,32 @@ const Quality = () => {
           <div>
             <p className="eyebrow">Our Quality</p>
             <h2 className="mt-4 max-w-2xl">
-              The quality of the company to support the development process becomes real
+              Built on Standards That Stand the Test of Time
             </h2>
           </div>
           <p className="text-sm max-w-lg">
-            Through our unwavering commitment to excellence, we have consistently turned
-            our promises into action. Our team&apos;s dedication, expertise and innovative
-            approach have made it possible to turn aspirations into achievements
+            Quality is at the foundation of everything we build. We follow rigorous
+            construction standards, prioritize safety, and use proven materials and
+            methods to ensure your project stands the test of time. Our team treats every
+            structure like a long-term investment — because it is.
           </p>
           <ul className="flex flex-col gap-2 lg:mt-1.5 *:text-sm list-none *:flex *:gap-2 *:items-center">
             <li>
               <div className="bg-orange-500 size-2" />
-              <span>Work comfortably and safely</span>
+              <span>Built with integrity, precision, and durable materials</span>
             </li>
             <li>
               <div className="bg-orange-500 size-2" />
-              <span>Construction quality that is always monitored</span>
+              <span>Safety first for our team, partners, and your investment</span>
             </li>
             <li>
               <div className="bg-orange-500 size-2" />
-              <span>Success for the long term</span>
+              <span>Long-lasting results through tested construction methods</span>
             </li>
           </ul>
           <div className="infline-flex">
             <Button variant="outline">
-              Read More <ArrowRight />
+              Contact Us <ArrowRight />
             </Button>
           </div>
         </div>

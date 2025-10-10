@@ -12,8 +12,9 @@ const Footer = () => {
             <div className="max-w-xs">
               <Image src="/logo.png" alt="Logo" width={150} height={100} />
               <p className="text-xs text-white/80 mt-4">
-                Construction company that leads in the industry with a strong commitment
-                to quality, safety and excellence in every project we undertake.
+                <span className="font-bold">North Star Constructions</span> leads in the
+                industry with a strong commitment to quality, safety and excellence in
+                every project we undertake.
               </p>
               <Button className="mt-8 text-xs">
                 Get In Touch <ArrowRight />
@@ -22,17 +23,15 @@ const Footer = () => {
             <div className="flex-1 flex flex-col lg:flex-row justify-end gap-8">
               <div className="flex flex-col gap-2">
                 <p className="text-sm text-white">Address</p>
-                <p className="text-sm text-white/70">
-                  8502 Preston Rd. Inglewood, Maine 98380
-                </p>
+                <p className="text-sm text-white/70">150 Moss Dr, Debary, FL 32713 USA</p>
               </div>
               <div className="flex flex-col gap-2">
                 <p className="text-sm text-white">Email Address</p>
-                <p className="text-sm text-white/70">Huantume@company.com</p>
+                <p className="text-sm text-white/70">nsconstructions07@gmail.com</p>
               </div>
               <div className="flex flex-col gap-2">
                 <p className="text-sm text-white">Phone Number</p>
-                <p className="text-sm text-white/70">(907) 555-0101</p>
+                <p className="text-sm text-white/70">+1 (972) 460-2957</p>
               </div>
             </div>
           </div>

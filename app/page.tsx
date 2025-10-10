@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
 import About from "@/sections/about";
+import MessageFromCEO from "@/sections/ceo-message";
 import Hero from "@/sections/hero";
 import Projects from "@/sections/projects";
 import Quality from "@/sections/quality";
@@ -21,7 +22,7 @@ export default function Home() {
       <Quality />
       <Projects />
       <Tape1 />
-      {/* <Tape2 /> */}
+      <MessageFromCEO />
       <Footer />
     </>
   );

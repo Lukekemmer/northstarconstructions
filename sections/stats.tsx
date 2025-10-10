@@ -3,28 +3,29 @@ import React from "react";
 const statList = [
   {
     id: 1,
-    number: 1300,
-    heading: "Project Completed",
-    description: "Hundreds of real projects we completed with our best clients",
+    number: 130,
+    heading: "Projects Completed",
+    description:
+      "Residential, commercial, and infrastructure builds successfully delivered on time and within scope",
   },
   {
     id: 2,
-    number: 4600,
-    heading: "Happy Customers",
-    description:
-      "We prioritise our parnert's opinion to produce something extraordinary.",
+    number: 95,
+    heading: "On-Time Delivery",
+    description: "Demonstrating our strong commitment to schedule and efficiency.",
   },
   {
     id: 3,
-    number: 25,
+    number: 18,
     heading: "Years Experience",
-    description: "We've been developing for decades to grow your business",
+    description: "Decades of trusted construction expertise and technical know-how.",
   },
   {
     id: 4,
-    number: 320,
-    heading: "Achievements",
-    description: "Over hundreds of awards with our super team.",
+    number: 15,
+    heading: "Major Partnerships",
+    description:
+      "Collaborations with architects, developers, and municipalities across the region.",
   },
 ];
 
@@ -36,7 +37,8 @@ const Stats = () => {
           {statList.map(({ id, number, heading, description }) => (
             <div key={id}>
               <p className="font-space-grotesk text-orange-600 font-bold text-3xl">
-                {number}+
+                {number}
+                {id !== 2 ? "+" : "%"}
               </p>
               <p className="font-bold text-sm text-black uppercase mt-4">{heading}</p>
               <p className="mt-1 text-sm">{description}</p>

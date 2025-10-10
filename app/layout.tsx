@@ -15,8 +15,18 @@ const archivo = Archivo({
 });
 
 export const metadata: Metadata = {
-  title: "Huantume Constructions",
-  description: "Building the future with creative construction work",
+  title: "North Star Constructions",
+  description: "Building strength below and above ground",
+  icons: {
+    icon: "/logo_icon.png",
+  },
+  openGraph: {
+    images: [
+      {
+        url: "/splash_image.jpg",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

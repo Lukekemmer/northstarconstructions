@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const Hero = () => {
@@ -11,20 +12,24 @@ const Hero = () => {
       <div className="relative container mx-auto py-24 px-5">
         <div className="flex flex-col gap-6 text-white">
           <h1 className="text-[45px] tracking-[-2.5%] leading-[110%] font-bold font-space-grotesk text-white max-w-lg">
-            WE BUILD THE FUTURE WITH CREATIVE WORK CONSTRUCTION
+            Building strength below and above ground
           </h1>
           <p className="max-w-md text-white/90">
-            Through our skilled teams and cutting-edge engineering, we create not just
-            buildings, but opportunities and progress for future generations.
+            We turn blueprints into enduring landmarks. With expert teams and engineering
+            excellence, we build spaces that stand strong for generations.
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-4 mt-10">
           <Button>
-            <span className="">GET IN TOUCH</span>
+            <span className="">REQUEST A QUOTE</span>
             <ArrowRight className="text-white" />
           </Button>
-          <Button variant="outline" className="text-white border-white">
-            WATCH VIDEO
+          <Button
+            variant="outline"
+            className="text-white border-white hover:bg-white hover:text-black"
+            asChild
+          >
+            <Link href="#about-us">Learn more</Link>
           </Button>
         </div>
       </div>
