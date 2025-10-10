@@ -21,7 +21,7 @@ export default function Home() {
       <Quality />
       <Projects />
       <Tape1 />
-      <Tape2 />
+      {/* <Tape2 /> */}
       <Footer />
     </>
   );

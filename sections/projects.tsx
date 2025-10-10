@@ -34,20 +34,6 @@ const projectImages = [
     heading: "",
     description: "",
   },
-  {
-    id: 5,
-    src: "/project_4.png",
-    alt: "Crane working on two sky scrapers",
-    heading: "",
-    description: "",
-  },
-  {
-    id: 6,
-    src: "/project_4.png",
-    alt: "Crane working on two sky scrapers",
-    heading: "",
-    description: "",
-  },
 ];
 
 const Projects = () => {
