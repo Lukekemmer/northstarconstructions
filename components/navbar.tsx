@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
 import { ArrowRight, MenuIcon } from "lucide-react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -21,9 +22,11 @@ const Navbar = () => {
               <Image src="/logo.png" alt="logo" width={150} height={150} />
             </div>
             <div className="hidden md:flex justify-end">
-              <Button>
-                <span>GET IN TOUCH</span>
-                <ArrowRight className="text-white" />
+              <Button asChild>
+                <Link href="tel:9724602957">
+                  <span>GET IN TOUCH</span>
+                  <ArrowRight className="text-white" />
+                </Link>
               </Button>
             </div>
             <div className="md:hidden">
