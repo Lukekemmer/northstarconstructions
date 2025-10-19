@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -16,8 +17,10 @@ const Footer = () => {
                 industry with a strong commitment to quality, safety and excellence in
                 every project we undertake.
               </p>
-              <Button className="mt-8 text-xs">
-                Get In Touch <ArrowRight />
+              <Button className="mt-8 text-xs" asChild>
+                <Link href="tel:9724602957">
+                  Get In Touch <ArrowRight />
+                </Link>
               </Button>
             </div>
             <div className="flex-1 flex flex-col lg:flex-row justify-end gap-8">

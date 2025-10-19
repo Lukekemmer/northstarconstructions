@@ -52,7 +52,7 @@ const Projects = () => {
                 society and the industry. a testament to our dedication to quality and our
                 mission to build a better future through construction
               </p>
-              <div className="hidden lg:inline-flex gap-3 mt-8">
+              <div className="hidden gap-3 mt-8">
                 <Button size="icon">
                   <ArrowLeft />
                 </Button>

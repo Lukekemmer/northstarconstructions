@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -36,9 +37,11 @@ const About = () => {
               two decades of hands-on expertise to every project. Our work is grounded in
               safety, precision, and a commitment to excellence.
             </p>
-            <Button variant="outline" className="mt-8 group">
-              CONTACT US
-              <ArrowRight className="text-orange-600 group-hover:text-white" />
+            <Button variant="outline" className="mt-8 group" asChild>
+              <Link href="tel:9724602957">
+                CONTACT US
+                <ArrowRight className="text-orange-600 group-hover:text-white" />
+              </Link>
             </Button>
           </div>
         </div>

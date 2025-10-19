@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const Quality = () => {
@@ -34,8 +35,10 @@ const Quality = () => {
             </li>
           </ul>
           <div className="infline-flex">
-            <Button variant="outline">
-              Contact Us <ArrowRight />
+            <Button variant="outline" asChild>
+              <Link href="tel:9724602957">
+                Contact Us <ArrowRight />
+              </Link>
             </Button>
           </div>
         </div>
