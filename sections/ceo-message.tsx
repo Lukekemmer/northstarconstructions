@@ -27,8 +27,7 @@ const MessageFromCEO = () => {
               </p>
               <p>
                 Our dedicated team works tirelessly to exceed expectations, embrace
-                innovation, and uphold the highest standards. Thank you for trusting North
-                Star Constructions to help build a stronger future.
+                innovation, and uphold the highest standards.
               </p>
               <p>
                 Thank you for trusting North Star Constructions as your partner in
