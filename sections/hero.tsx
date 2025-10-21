@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import QuoteButtonModal from "@/components/quote-button-modal";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
@@ -20,10 +21,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row gap-4 mt-10">
-          <Button>
-            <span className="">REQUEST A QUOTE</span>
-            <ArrowRight className="text-white" />
-          </Button>
+          <QuoteButtonModal label="REQUEST A QUOTE" />
           <Button
             variant="outline"
             className="text-white border-white hover:bg-white hover:text-black"
